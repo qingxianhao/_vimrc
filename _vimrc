@@ -45,6 +45,5 @@ highlight TrailingWhitespace ctermbg=red guibg=red
 match TrailingWhitespace /\\s\\+$/
 call plug#end()
 
-autocmd! bufwritepost _vimrc source %
-autocmd! bufwritepost ~/.vimrc source %
+autocmd! BufWritePost $MYVIMRC source $MYVIMRC
 
