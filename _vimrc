@@ -20,7 +20,7 @@ set autoindent
 set ruler
 set laststatus=2
 set showcmd
-"set cmdheight=1
+set cmdheight=1
 
 set notimeout ttimeout ttimeoutlen=200
 
@@ -38,8 +38,11 @@ if !isdirectory(plug_path)
 endif
 
 call plug#begin(plug_path)
-
+Plug 'airblade/vim-gitgutter'
+Plug 'bling/vim-airline'
+Plug 'bronson/vim-trailing-whitespace'
 call plug#end()
 
 autocmd! bufwritepost _vimrc source %
 autocmd! bufwritepost ~/.vimrc source %
+

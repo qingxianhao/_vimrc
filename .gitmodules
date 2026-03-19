@@ -1,0 +1,9 @@
+[submodule "_vim/vim_plugins/vim-airline"]
+	path = _vim/vim_plugins/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "_vim/vim_plugins/vim-gitgutter"]
+	path = _vim/vim_plugins/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "_vim/vim_plugins/vim-trailing-whitespace"]
+	path = _vim/vim_plugins/vim-trailing-whitespace
+	url = https://github.com/bronson/vim-trailing-whitespace
