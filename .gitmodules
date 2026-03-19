@@ -7,3 +7,6 @@
 [submodule "_vim/vim_plugins/vim-trailing-whitespace"]
 	path = _vim/vim_plugins/vim-trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace
+[submodule "_vim/vim_plugins/tcomment_vim"]
+	path = _vim/vim_plugins/tcomment_vim
+	url = https://github.com/tomtom/tcomment_vim

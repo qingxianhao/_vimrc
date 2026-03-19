@@ -43,6 +43,7 @@ Plug 'bling/vim-airline'
 Plug 'bronson/vim-trailing-whitespace'
 highlight TrailingWhitespace ctermbg=red guibg=red
 match TrailingWhitespace /\\s\\+$/
+Plug 'tomtom/tcomment_vim'
 call plug#end()
 
 autocmd! BufWritePost $MYVIMRC source $MYVIMRC
