@@ -59,5 +59,17 @@ let g:syntastic_quiet_messages = { "type": "style" }
 
 call plug#end()
 
+set nocompatible
+syntax on
+syntax enable
+filetype plugin on
+
+set path+=**
+set wildmenu
+set spell
+set paste
+
+hi Search ctermfg=1,ctermbg=11,guifg=Red,guibg=Yellow
+
 autocmd! BufWritePost $MYVIMRC source $MYVIMRC
 
