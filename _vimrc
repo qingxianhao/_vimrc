@@ -44,6 +44,19 @@ Plug 'bronson/vim-trailing-whitespace'
 highlight TrailingWhitespace ctermbg=red guibg=red
 match TrailingWhitespace /\\s\\+$/
 Plug 'tomtom/tcomment_vim'
+Plug 'https://github.com/scrooloose/syntastic'
+" java
+let g:syntastic_java_javac_config_file_enabled=1
+let g:syntastic_java_javac_classpath="bin/:gen/:build/intermediates:$CLASS_PATH"
+" C
+let g:syntastic_c_compiler_options="-std=c11"
+" global
+let g:syntastic_always_populate_loc_list = 0
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 1
+let g:syntastic_quiet_messages = { "type": "style" }
+
 call plug#end()
 
 autocmd! BufWritePost $MYVIMRC source $MYVIMRC

@@ -10,3 +10,6 @@
 [submodule "_vim/vim_plugins/tcomment_vim"]
 	path = _vim/vim_plugins/tcomment_vim
 	url = https://github.com/tomtom/tcomment_vim
+[submodule "_vim/vim_plugins/syntastic"]
+	path = _vim/vim_plugins/syntastic
+	url = https://github.com/scrooloose/syntastic
